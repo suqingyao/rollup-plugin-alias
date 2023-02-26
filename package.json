@@ -1,0 +1,22 @@
+{
+  "name": "@cullyfung/rollup-plugin-alias",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "author": "",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.0.0",
+    "rollup": "^3.17.3",
+    "tslib": "^2.5.0",
+    "typescript": "^4.9.5",
+    "vitest": "^0.29.1"
+  }
+}
